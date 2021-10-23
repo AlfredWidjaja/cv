@@ -13,11 +13,11 @@ h1, h2, h3, h4, .nav-link{
 }
 
 h1{
-    font-size: 5vw;
+    font-size: 3.5rem;
 }
 
 h2{
-    font-size: 3vw;
+    font-size: 2.5rem;
 }
 
 h4{
@@ -313,7 +313,7 @@ footer{
     position: absolute;
     color: #EACD98;
     width: fit-content;
-    height: 4rem;
+    height: 3rem;
     margin-top: 1rem;
     padding: 1%;
     left: 1rem;
@@ -322,6 +322,11 @@ footer{
 .skill, .certificate{
     padding: 5% 8%;
 }
+
+.skill-list, .certificate-list{
+    margin-top: 6rem;
+}
+
 /* Skill */
 .skill{
     background-color: #DECAB6;
@@ -329,14 +334,10 @@ footer{
 
 .overlay{
     position:absolute;
-    width: 13rem;
-    height: 3.5rem;
+    width: 8rem;
+    height: 3rem;
     background-color: #937354;
     z-index: 0.8;
-}
-
-.skill-list{
-    margin-top: 7rem;
 }
 
 /* Certification */
@@ -345,11 +346,7 @@ footer{
 }
 
 .certificate .overlay{
-    width: 22rem;
-}
-
-.certificate-list{
-    margin-top: 7rem;
+    width: 13rem;
 }
 
 /* Portfolio Page */
