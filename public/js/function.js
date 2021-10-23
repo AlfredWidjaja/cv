@@ -1,5 +1,9 @@
+
 // All Event Listener for Website
 window.addEventListener("scroll", scrollable, stopped);
+
+// Show certificate
+window.addEventListener("load", showcertificate);
 
 document.getElementById("about_page").addEventListener("click", function(){
     window.location.href = "about.html";
@@ -17,3 +21,10 @@ function scrollable(){
 function stopped(){
     $("#navbar").css({"background-color":"#DECAB6", "transition":"1s"});
 }
+
+window.addEventListener("load", function(){
+    for (var i=0; i<3;i++){
+        document.getElementById("certiList").innerHTML += `
+        <p>fsfsd</p>`;
+    }
+});
