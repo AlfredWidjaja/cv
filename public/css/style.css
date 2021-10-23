@@ -1,6 +1,6 @@
 /* General style */
 body{
-    background-color: #573A24;
+    background-color: #937354;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.125rem;
@@ -73,7 +73,9 @@ h4{
 .opening{
     color: #DECAB6;
     background-color: #231818;
-    padding: 10rem 8% 6rem;
+    padding: 10rem 8% 7rem;
+    border-radius: 0 0 10rem 0;
+    z-index: 1.2;
 }
 
 .wrap{
@@ -193,6 +195,7 @@ h4{
 /* Homepage portofolio class */
 .porto{
     background-color: #DECAB6;
+    border-radius: 4rem;
 }
 
 .porto .btn{
@@ -281,12 +284,15 @@ footer{
 
 
 /* About Page */
+.about-page{
+    background-color: #937354;
+}
 
 /* About me */
 .about-home{
     background-color: #937354;
-    color: #FDF3F3;
-    padding: 10rem 8% 7rem;
+    color: #DECAB6;
+    padding: 10rem 0 0 0;
 }
 
 .parent{
@@ -307,11 +313,23 @@ footer{
     transform: scaleX(1);
 }
 
+.about_content{
+    padding: 0 0 0 8%;
+}
+.about-decor{
+    background-color: #DECAB6;
+    border-radius: 30rem 30rem 0 0;
+    margin-top: 5rem;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 0;
+}
+
 .skill-title, .certificate-title{
     font-weight: 400;
     font-style: none;
     position: absolute;
-    color: #EACD98;
+    color: #DECAB6;
     width: fit-content;
     height: fit-content;
     margin-top: 1rem;
@@ -351,7 +369,14 @@ footer{
 .porto-home .porto{
     background-color: #937354;
     color: #DECAB6;
-    padding: 10rem 8% 6rem;
+    padding: 10rem 8% 6rem 0;
+}
+
+.porto-home .porto h2{
+    padding: 1rem 0 1rem 8%;
+    width: 75%;
+    border-radius: 0 30rem 30rem 0;
+    background-color: #573A24;
 }
 
 /* Contact homepage */
