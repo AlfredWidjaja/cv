@@ -1,0 +1,365 @@
+/* General style */
+body{
+    background-color: #573A24;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #231818;
+    transition: 0.3s all;
+}
+
+h1, h2, h3, h4, .nav-link{
+    font-weight: 600;
+}
+
+h1{
+    font-size: 4.5rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 1.25rem;
+    font-style: normal;
+}
+
+.navbar, .opening, .about, .porto, .contact, .about-home, .skill, .certificate{
+    padding: 7% 8%;
+}
+
+.btn{
+    border-radius: 2rem;
+    background-color: #231818;
+}
+
+/* Navbar style */
+.navbar{
+    background-color: #DECAB6;
+    position: fixed;
+    padding: 2% 7%;
+    width: 100%;
+    margin-bottom: 2rem;
+    z-index: 2;
+}
+
+.nav-ico{
+    width: 4rem;
+    height: 2rem;
+}
+.nav-item{
+    padding: 0 0.75rem;
+    
+}
+
+.navbar-toggler{
+    border:  0.1875rem ridge #231818;
+}
+
+.nav-link, .fas{
+    color: #231818;
+}
+
+.nav-link:hover{
+    color: #937354;
+}
+
+.navbar-nav:last-child{
+    padding-right: 0;
+}
+
+/* Homepage opening class */
+.opening{
+    color: #DECAB6;
+    background-color: #231818;
+    padding: 10rem 8% 6rem;
+}
+
+.wrap{
+    background-color: #573A24;
+    border: 0.5rem solid #382020;
+    border-right: none;
+    border-radius: 1rem;
+    max-width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+.opening_img{
+    border-radius: 0.2rem;
+    margin: auto 0;
+    padding: 4% 0 4% 12%;
+    z-index: 1;
+    width: auto;
+    height: auto;
+}
+
+.follow{
+    margin: 1rem auto 1.5rem;
+}
+
+.fol-ico:hover{
+    color: #937354;
+    background-color: #DECAB6;
+}
+
+.fol-ico{
+    color: #231818;
+    background-color: #937354;
+    text-align: center;
+    margin-right: 1rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.opening a{
+    text-decoration: none;
+}
+
+/* Homepage about class */
+.about{
+    background-color: #937354;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5rem 8%;
+}
+
+.about h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-wrap{
+    text-align: center;
+}
+
+.par{
+    position: relative;
+}
+
+.top-frame{
+    position: absolute;
+    background-color: #573A24;
+    width: 40%;
+    height: 70%;
+    left: 20%;
+    top: -3%;
+    z-index: 0.8;
+}
+
+.bottom-frame{
+    position: absolute;
+    background-color: #573A24;
+    width: 40%;
+    height: 70%;
+    right: 20%;
+    bottom: -3%;
+    z-index: 0.8;
+}
+
+.about-ico{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    padding: 2%;
+    max-width: 60%;
+    min-width: 50%;
+    height: auto;
+    text-align: center;
+    background-color: #573A24;
+    z-index: 1;
+}
+
+.about_content{
+    margin-left: auto;
+}
+
+.ab-con{
+    margin: 3% auto 7%;
+}
+.about .btn{
+    color: #573A24;
+    background-color: #DECAB6;
+}
+
+.about .btn:hover{
+    color: #DECAB6;
+    background-color: #573A24;
+}
+
+/* Homepage portofolio class */
+.porto{
+    background-color: #DECAB6;
+}
+
+.porto .btn{
+    color: #DECAB6;
+    background-color: #937354;
+}
+
+.porto .btn:hover{
+    color: #937354;
+    background-color: #BA9A6D;
+}
+
+/* Contact info */
+.contact{
+    background-color: #937354;
+}
+
+/* Contact form */
+form{
+    padding: 2% 3%;
+}
+.form_input{
+    border: 1px solid #EBD09D;
+    border-radius: 2rem;
+    width: 7rem;
+    height: 3rem;
+    margin-right: auto;
+    padding: 0;
+    background-color: #EBD09D;
+    color: #573A24;
+    font-weight: 600;
+}
+
+.form_input:hover{
+    border: 1px solid #573A24;
+    background-color: #573A24;
+    color: #EBD09D;
+}
+
+.form_text{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #231818;
+    background-color: #DECAB6;
+    border: 1px solid #DECAB6;
+    border-radius: 0.5rem;
+}
+
+input[type=text], input[type=email]{
+    width: 49%;
+    height: 2.125rem;
+    margin-bottom: 3%;
+}
+
+textarea{
+    width: 100%;
+    height: 12rem;
+    margin-bottom: 3%;
+    resize: none;
+}
+/* Contact info box */
+.con{
+    background-color: #BA9A6D;
+    color: #231818;
+    border-radius: 1rem;
+    padding: 3%;
+    margin: 0 auto 3%;
+}
+
+.contact h2{
+    color: #DECAB6;
+}
+
+.con i{
+    font-size: 1rem;
+    margin: 0.75rem 0;
+}
+
+/* Footer */
+footer{
+    padding: 3% 0;
+    font-weight: 600;
+    color: #DECAB6;
+    background-color: #573A24;
+}
+
+
+/* About Page */
+
+/* About me */
+.about-home{
+    background-color: #937354;
+    color: #FDF3F3;
+    padding: 10rem 8% 7rem;
+}
+
+.parent{
+    position: relative;
+}
+
+.about-home .top-frame{
+    left: 40%;
+    top: -3%;
+}
+
+.about-home .bottom-frame{
+    left: 20%;
+}
+
+.about-home .about-ico{
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.skill-title, .certificate-title{
+    font-weight: 400;
+    font-style: none;
+    position: absolute;
+    color: #EACD98;
+    width: fit-content;
+    height: 4rem;
+    margin-top: 1rem;
+    padding: 1%;
+    left: 1rem;
+    background-color: #573A24;
+}
+.skill, .certificate{
+    padding: 5% 8%;
+}
+/* Skill */
+.skill{
+    background-color: #DECAB6;
+}
+
+.overlay{
+    position:absolute;
+    width: 13rem;
+    height: 3.5rem;
+    background-color: #937354;
+    z-index: 0.8;
+}
+
+.skill-list{
+    margin-top: 7rem;
+}
+
+/* Certification */
+.certificate{
+    background-color: #DECAB6;
+}
+
+.certificate .overlay{
+    width: 22rem;
+}
+
+.certificate-list{
+    margin-top: 7rem;
+}
+
+/* Portfolio Page */
+.porto-home .porto{
+    background-color: #BA9A6D;
+    color: #FDF3F3;
+    padding: 10rem 8% 6rem;
+}
+
+/* Contact homepage */
+.contact-home .contact{
+    padding: 10rem 8% 6rem;
+}
