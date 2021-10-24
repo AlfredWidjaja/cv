@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body class="home">
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-md" id="navbar">
         <a class="navbar-brand" href="index.html"><img src="public/img/icon.png" alt="" class="nav-ico"></a>
@@ -90,7 +90,7 @@
                 <div class="bottom-frame"> </div>
                 <div class="about-wrap">
                     <img src="public/img/about.jpg" alt="About Me" class="about-ico">
-                </div>  
+                </div>
             </div>
 
             <div class="col-md-7 about_content my-auto">
@@ -109,10 +109,68 @@
 
     <!-- Portfolio section -->
     <div class="porto">
-        <h2>Portofolio</h2>
-        <p>My Newest Project</p>
+        <h2>Portfolio</h2>
+        <h5>My Newest Project</h5>
 
-        <!-- Untuk image -->
+        <div class="row list justify-content-around">
+            <div class="card border">
+                <div class="card-header">Front End</div>
+                <img class="card-img-content" src="public/img/front-end/website_personal.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Personal Website</strong></h5>
+                    <hr>
+                    <p class="card-text"><small>Date: 25 October 2021</small>
+                    </p>
+                    <a href="https://alfredwidjaja.github.io/cv/" 
+                        class="btn" target="_blank">Website</a>
+                    <a href="https://github.com/AlfredWidjaja/cv" 
+                        class="btn" target="_blank">Github</a>
+                </div>
+            </div>
+            <div class="card border">
+                <div class="card-header">Front End</div>
+                <img class="card-img-content" src="public/img/front-end/my_site.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>My Site</strong></h5>
+                    <hr>
+                    <p class="card-text"><small>Date: 15 August 2021</small>
+                    </p>
+                    <a href="https://alfredwidjaja.github.io/mySite/" 
+                        class="btn" target="_blank">Website</a>
+                    <a href="https://github.com/AlfredWidjaja/mySite.git" 
+                        class="btn" target="_blank">Github</a>
+                </div>
+            </div>
+            <div class="card border">
+                <div class="card-header">Fullstack</div>
+                <img class="card-img-content" src="public/img/fullstack/disscussroom.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Discuss Room</strong></h5>
+                    <hr>
+                    <p class="card-text"><small>Date: 28 June 2021</small>
+                    </p>
+                    <a href="https://github.com/AlfredWidjaja/FinalProject-BNCCFullstack2020.git"
+                        class="btn" target="_blank">Github</a>
+                </div>
+            </div>
+            <div class="card border">
+                <div class="card-header">UI UX Design</div>
+                <img class="card-img-content" src="public/img/uiux/uiux_personal.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Personal Website</h5>
+                    <hr>
+                    <p class="card-text"><small>Date: 6 June 2021</small> </p>
+                    <a href="https://www.figma.com/file/U50zxD0uFDpRbYu0W7uDzB/Website-Portfolio?node-id=265%3A707"
+                        class="btn" target="_blank">Figma</a>
+                    <a href="https://www.figma.com/proto/U50zxD0uFDpRbYu0W7uDzB/Website-Portfolio?node-id=265%3A897&scaling=min-zoom&page-id=265%3A707&starting-point-node-id=265%3A897"
+                        class="btn" target="_blank">Proto</a>
+                    <a href="https://drive.google.com/file/d/1O9lQCaPvMI4AS5x_EjmvXnxAldKFKTXW/view?usp=sharing"
+                        class="btn" target="_blank">UX flow</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Go to portfolio -->
         <button class="btn" id="porto-page">
             <h4 class="my-auto">See More</h4>
         </button>
@@ -121,7 +179,7 @@
     <!-- Contact -->
     <div class="contact">
         <h2>Get in touch</h2>
-        <form action="mailto:alfredwidjaja01@gmail.com" method="POST" enctype="text/plain" name="EmailForm" target="_blank">
+        <form action="mailto:alfredwidjaja01@gmail.com" method="POST" enctype="text/plain" name="EmailForm">
             <div class="row">
                 <div class="col-md-6">
                     <div class="row justify-content-between">

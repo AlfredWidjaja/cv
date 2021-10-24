@@ -18,3 +18,5 @@ function scrollable(){
 function stopped(){
     $("#navbar").css({"background-color":"#DECAB6", "transition":"1s"});
 }
+
+document.getElementsByClassName("form_input").alert("Sorry, form not available right now");

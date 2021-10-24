@@ -44,9 +44,10 @@ h4{
     width: 20rem;
     z-index: 0.8;
     transition: 1s;
+    border-radius: 0.5rem;
 }
 
-.about-page .card{
+.about-page .card, .home .card{
     width: 18rem;
 }
 
@@ -70,6 +71,7 @@ h4{
 .card-body{
     background-color: #DECAB6;
     color:#382020;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .card:hover{
@@ -98,13 +100,42 @@ h4{
     background-color: #382020;
     width: 70%;
     height: 100%;
+    border-radius:0 0.2rem 0.2rem 0;
     float:right;
 }
 
+.home .card{
+    background-color: #937354;
+}
+.card-img-content{
+    padding: 0.1rem;
+    
+}
+
+.home .card .btn{
+    background-color: #382020;
+}
+
+.card-header{
+    background-color: #382020;
+    color:#FDF3F3;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.home .card-body{
+    color:#DECAB6;
+}
 .card-overlay-content .card-text{
     padding-left: 1rem;
 }
 
+.fol-ico{
+    color: #382020;
+}
+
+.home .card-body{
+    background-color: #937354;
+}
 /* Navbar style */
 .navbar{
     background-color: #DECAB6;
@@ -410,7 +441,7 @@ footer{
     background-color: #573A24;
 }
 
-.about-page .list{
+.about-page .list, .home .list{
     padding: 1rem 0 1rem 0;
 }
 
@@ -427,6 +458,24 @@ footer{
     background-color: #DECAB6;
     padding-top: 6rem;
     border-radius: 4rem 4rem 0 0;
+}
+
+.skill-ico{
+    font-size: 2.5rem;
+    color:#DECAB6;
+    padding: 1.25rem;
+}
+
+.fa-java{
+    padding: 1rem 1.2rem;
+}
+
+.fa-php{
+    padding: 1.2rem 0.6rem;
+}
+
+.fa-pencil-ruler{
+    padding: 1.2rem 1rem;
 }
 
 .overlay{
@@ -500,7 +549,7 @@ footer{
     background-color: #573A24;
 }
 
-.uiux, .website, .android{
+.uiux, .website, .android, .fullstack{
     padding: 1rem 10% 1rem 8%;
     width: fit-content;
     border-radius: 0 30rem 30rem 0;
