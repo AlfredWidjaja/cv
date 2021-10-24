@@ -425,7 +425,7 @@ footer{
 /* Skill */
 .skill{
     background-color: #DECAB6;
-    padding-top: 3rem;
+    padding-top: 6rem;
     border-radius: 4rem 4rem 0 0;
 }
 
@@ -437,6 +437,44 @@ footer{
     color: #937354;
     background-color: #937354;
     z-index: 0.8;
+}
+
+.skill-temp{
+    margin: 3rem 1rem 1rem 1rem;
+    position:relative;
+    
+}
+
+.skill-bar{
+    background-color: #573A24;
+    width: 100%;
+    height: 3rem;
+    margin-left: 1.5rem;
+    border-radius: 0 25rem 25rem 0;
+    vertical-align: middle;
+}
+
+.skill-progress{
+    background-color: #937354;
+    color: #FDF3F3;
+    height: 100%;
+    padding: 0.8rem 0 0 2.5rem;
+    border-radius: 0 25rem 25rem 0;
+    text-align: left;
+}
+
+.about-page h5{
+    margin-bottom: 0.5rem;
+}
+
+.skill-logo{
+    border-radius: 100%;
+    width: 4.5rem;
+    height: 4.5rem;
+    position:absolute;
+    background-color: #573A24;
+    left: -0.2rem;
+    bottom: 0;
 }
 
 /* Certification */
