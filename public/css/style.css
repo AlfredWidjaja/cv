@@ -34,6 +34,77 @@ h4{
     background-color: #231818;
 }
 
+.btn:focus {
+    box-shadow: none;
+  }
+  
+/* All Card style */
+.card{
+    margin: 1rem;
+    width: 20rem;
+    z-index: 0.8;
+    transition: 1s;
+}
+
+.about-page .card{
+    width: 18rem;
+}
+
+.about-page .btn{
+    background-color: #DECAB6;
+    color:#382020;
+    padding: 0 0.5rem;
+    transition: 1s;
+}
+
+.about-page .btn:hover{
+    background-color: #937354;
+    color: #DECAB6;
+}
+
+.about-page .card-body{
+    background-color: #573A24;
+    color:#DECAB6;
+}
+
+.card-body{
+    background-color: #DECAB6;
+    color:#382020;
+}
+
+.card:hover{
+    transform: scale(1.15);
+    z-index: 1.5;
+    transition: 0.5s;
+}
+
+.card .btn:hover{
+    color:#DECAB6;
+}
+
+.card-img-overlay{
+    opacity: 0;
+    text-align: right;
+    padding: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.9;
+}
+
+.card-overlay-content{
+    padding: 1rem 0.5rem 0 0.5rem;
+    color:#FDF3F3;
+    background-color: #382020;
+    width: 70%;
+    height: 100%;
+    float:right;
+}
+
+.card-overlay-content .card-text{
+    padding-left: 1rem;
+}
+
 /* Navbar style */
 .navbar{
     background-color: #DECAB6;
@@ -196,6 +267,11 @@ h4{
     transition: 1s;
 }
 
+.about-page hr{
+    border-top:1px solid #FDF3F3;
+    margin:0 0 0 25%; 
+}
+
 /* Homepage portofolio class */
 .porto{
     background-color: #DECAB6;
@@ -209,7 +285,7 @@ h4{
 }
 
 .porto .btn:hover{
-    color: #937354;
+    color: #231818;
     background-color: #BA9A6D;
     transition: 1s;
 }
@@ -333,6 +409,11 @@ footer{
     left: 1rem;
     background-color: #573A24;
 }
+
+.about-page .list{
+    padding: 1rem 0 1rem 0;
+}
+
 .skill, .certificate{
     padding: 5% 8%;
 }
@@ -363,6 +444,10 @@ footer{
     background-color: #DECAB6;
 }
 
+.about-page .list{
+    margin-top: 4rem;
+}
+
 /* Portfolio Page */
 .porto-home .porto{
     background-color: #937354;
@@ -375,29 +460,6 @@ footer{
     width: fit-content;
     border-radius: 0 30rem 30rem 0;
     background-color: #573A24;
-}
-
-/* For Card in portfolio page */
-.card{
-    margin: 1rem;
-    width: 20rem;
-    z-index: 0.8;
-    transition: 1s;
-}
-
-.card-body{
-    background-color: #DECAB6;
-    color:#382020;
-}
-
-.card:hover{
-    transform: scale(1.15);
-    z-index: 1.5;
-    transition: 1s;
-}
-
-.card .btn:hover{
-    color:#DECAB6;
 }
 
 .uiux, .website, .android{
